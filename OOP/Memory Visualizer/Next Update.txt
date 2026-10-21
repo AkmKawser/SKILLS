@@ -1,0 +1,1 @@
+remove the slide system. make it normal text file but the arrow sign and the codes should be in image.
