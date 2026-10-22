@@ -1,1 +1,38 @@
-Technical explanatory writing - its a method for writing explanations without coding but using technical terms. 
+1. Technical explanatory writing - its a method for writing explanations without coding but using technical terms. 
+
+
+2.
+Explain [OOP concept, e.g. polymorphism] using a diagram and technical
+explanatory writing.
+
+Diagram:
+- Draw it as a memory/structure diagram (like Stack, Heap, Class area)
+  with numbered steps showing what happens at runtime.
+- Use generic names such as Class A, Class B, Object A, method, and
+  reference. Do not use real-world examples like Car or Engine.
+- Keep labels short. Put the explanation in the text, not inside the boxes.
+
+Writing:
+- Use a technical explanatory style: introduction, step-by-step
+  explanation matching the diagram numbers, key concepts, and a
+  failure case or common mistake.
+- Do not include any code.
+- Use terms like method, reference, object, class, field, and instance.
+```
+
+**Tips for better results:**
+
+1. **Say which memory parts matter.** For example: "show the Stack, the Heap, and the vtable (method lookup table)". This stops Claude from guessing the layout.
+2. **Ask for the diagram first.** Add "Draw the diagram first, then write the explanation" if you want to see the visual before the text.
+3. **Name the number of steps.** For example: "Explain in 4 steps." This keeps the diagram and the text aligned.
+4. **Attach a reference image.** If you have a diagram style you like (such as your delegation image), upload it and add "Follow this diagram style."
+5. **Request the failure case.** For example: "Show what goes wrong when the reference is null." This is where the concept is often best understood.
+
+**Examples of concept-specific additions:**
+
+- **Inheritance:** "Show how a child object finds a method defined in its parent class."
+- **Polymorphism:** "Show how one reference type calls different methods depending on the actual object."
+- **Encapsulation:** "Show how fields are hidden inside the object and reached only through methods."
+- **Composition vs. inheritance:** "Draw both side by side and compare the references."
+
+If you want, I can write a ready-made prompt for a specific concept like polymorphism or inheritance.
