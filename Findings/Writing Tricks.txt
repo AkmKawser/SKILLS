@@ -8,8 +8,8 @@ explanatory writing.
 Diagram:
 - Draw it as a memory/structure diagram (like Stack, Heap, Class area)
   with numbered steps showing what happens at runtime.
-- Use generic names such as Class A, Class B, Object A, method, and
-  reference. Do not use real-world examples like Car or Engine.
+- Use generic names such as Class A, Class B, Object A, method, Variable (never use the word field) and
+  reference (never use the word address). Do not use real-world examples like Car or Engine.
 - Keep labels short. Put the explanation in the text, not inside the boxes.
 
 Writing:
